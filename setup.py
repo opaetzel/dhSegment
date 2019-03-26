@@ -12,7 +12,7 @@ setup(name='dh_segment',
           'Source Code': 'https://github.com/dhlab-epfl/dhSegment'
       },
       install_requires=[
-        'tensorflow-gpu==1.11',
+        'tensorflow-rocm==1.13.1',
         'numpy==1.14.5',
         'imageio==2.3.0',
         'pandas==0.23.0',
